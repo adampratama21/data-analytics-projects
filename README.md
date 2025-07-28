@@ -11,9 +11,7 @@ Collection of personal data analytics projects using Excel, SQL, Power BI, and P
 
 ## Project List
 
-- [`E-Commerce Sales Analysis`](./ecommerce-sales-analysis)
-- [`HR Employee Attrition`](./hr-employee-attrition)
-- [`COVID Data Visualization`](./covid-data-visualization)
+-
 
 More projects will be added as I continue learning and practicing.
 
