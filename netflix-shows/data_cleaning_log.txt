@@ -1,0 +1,24 @@
+Data Cleaning Log – netflix_titles.csv
+
+1. Fixed multi-line row issue:
+   - Some movie titles spanned multiple lines due to improper quotation.
+   - Manually merged split lines to restore correct record format in the CSV file.
+
+2. Fixed misaligned columns due to missing commas:
+   - Some rows had missing commas, causing values to shift into incorrect columns (e.g., 'duration' value placed under 'rating').
+   - Manually reviewed and corrected affected rows to ensure proper alignment with column headers.
+
+3. Removed duplicates:
+   - Checked for duplicate rows based on all columns.
+   - 0 rows removed.
+
+4. Replaced missing values:
+   - Columns affected: 'director', 'cast', 'country', 'rating', 'listed_in'.
+   - Empty cells replaced with "Unknown" to maintain consistency.
+
+5. Split multi-country values in Country column:
+  - Method: Split by delimiter (comma), then unpivot columns into rows
+  - Purpose: To ensure each country is counted accurately in visualizations
+
+6. Fixed misplaced comma:
+  - Removed or fixed comma placement on a few rows in the country column to ensure accurate splitting.
