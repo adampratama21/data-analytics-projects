@@ -12,6 +12,7 @@ Collection of personal data analytics projects using Excel, SQL, Power BI, and P
 ## Project List
 
 - [Netflix Shows Dashboard](./netflix-shows)
+- [Cafe Sales Data Cleaning](./cafe-sales-data-cleaning)
 
 More projects will be added as I continue learning and practicing.
 

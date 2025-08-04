@@ -1,0 +1,20 @@
+Data Cleaning Log – dirty_cafe_sales.csv
+
+1. Promoted Headers:
+- Promoted the first row to column headers.
+
+2. Renamed Columns:
+- Replaced spaces with underscores (_) for consistency and ease of reference.
+
+3. Changed Data Types
+- Converted Transaction_Date column to Date type.
+- Converted Quantity column to Whole Number.
+- Converted Price_Per_Unit and Total_Spent columns to Decimal Number using English (United States) locale.
+
+4. Trimmed Text Columns:
+- Applied text trim to remove leading/trailing spaces in the Item, Payment_Method, and Location columns.
+
+5. Handled Missing and Invalid Values:
+- Replaced "UNKNOWN" and "ERROR" in text columns (Item, Payment_Method, Location) with empty values, then filled them with "Unknown" for consistency.
+- Replaced errors in numeric columns (Quantity, Price_Per_Unit, Total_Spent) with null.
+- Replaced errors in the date column (Transaction_Date) with null.
