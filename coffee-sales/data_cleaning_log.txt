@@ -1,0 +1,44 @@
+Data Cleaning Log – Coffee Sales Dataset
+
+index_1.csv:
+
+1.Changed Data Type for 'money' Column
+   - Applied locale-based conversion: 'Decimal Number' with locale English (United States) to correctly interpret decimal values.
+
+2. Replaced Values in 'card' Column  
+   - Filled blank (null) entries with "UNKNOWN" to indicate cash transactions that don't involve a card number.
+
+3. Added Custom Column: 'machine' 
+   - Created a new column named 'machine' and assigned the value "machine-1" to indicate that this data originated from vending machine 1.
+
+4. Applied Text Trimming
+   - Used the 'Trim' transformation on all columns with the 'Text' data type to remove any leading or trailing spaces.
+
+5. Removed Duplicate Records  
+   - Selected all columns, right-clicked, and used "Remove Duplicates" to ensure data uniqueness.
+
+6. Transformed Column: 'coffee_name'
+   - Converted all values in 'coffee_name' to uppercase to ensure consistency in naming.
+
+---
+
+index_2.csv:
+
+1. Changed Data Type for 'money' Column
+   - Applied locale-based conversion: `Decimal Number` with locale **English (United States)** to ensure correct decimal formatting.
+
+2. Added Custom Column: 'machine'
+   - Created a new column named 'machine' and assigned the value "machine-2" to signify data from vending machine 2.
+
+3. Applied Text Trimming
+   - Used the 'Trim' transformation on all columns with the 'Text' data type to remove any leading or trailing spaces.
+
+4. Removed Duplicate Records  
+   - Selected all columns, right-clicked, and used "Remove Duplicates" to ensure data uniqueness.
+
+5. Added custom column: 'card'
+   - Created a new column named 'card'.
+   - Assigned the value 'unknown' to all rows to align the column structure with index_1 (machine-1), enabling a consistent structure for combined analysis.
+
+6.  Transformed Column: 'coffee_name'
+   - Converted all values in 'coffee_name' to uppercase to ensure consistency in naming.
