@@ -41,7 +41,7 @@ This project explores the Netflix Shows Dataset from 2008 to 2021 downloaded fro
 
 ## 📊 Exploratory Data Analysis (Excel)
 
-EDA was performed using Microsoft Excel with pivot tables and charts. Key analysis include:
+EDA was performed using Microsoft Excel with pivot tables and charts. Key analyses include:
 
 - Type Distribution (Movie vs TV Show)
 - Top 10 Genres
