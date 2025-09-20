@@ -3,6 +3,7 @@
 This project explores the “Zara Sales” dataset downloaded from Kaggle, focusing on data visualization using Power BI. The dashboard includes key performance indicators such as total sales, total quantities sold, total products, and average price, along with visual analyses such as top 10 products, sales by store location, sales by category, and sales by seasonal and promotion status, as well as by customer segment (men vs. women). The goal of this project is to develop and enhance my skills in creating clear, insightful, and visually appealing dashboards.
 
 ## 📁 Project Structure
+```
 📦 zara-sales/
 ├── data/
 │   ├── original/
@@ -24,7 +25,7 @@ This project explores the “Zara Sales” dataset downloaded from Kaggle, focus
 │   └── zara_sales.pbix
 ├── data_cleaning_log.txt
 └── README.md
-
+```
 
 ## 📌 Objectives
 - Visualize the dataset using Power BI
@@ -42,13 +43,13 @@ A KPI Dashboard was created using Power BI, featuring:
 - Sales by Promotion Status  
 - Sales by Customer Section (Man vs. Woman)
 
-Data Source:
+**Data Source:**
 Kaggle — [Zara Sales](https://www.kaggle.com/datasets/xontoloyo/data-penjualan-zara)
 
-Last Data Refresh:
+**Last Data Refresh:**
 ‎28/08/2025 ‏‎15:27:11 WIB
 
-Downloaded at:
+**Downloaded at:**
 28/08/2025 12:40:03 WIB
 
 ## 🛠️ Tools Used
