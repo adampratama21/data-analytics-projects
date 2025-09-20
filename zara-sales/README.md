@@ -3,7 +3,7 @@
 This project explores the “Zara Sales” dataset downloaded from Kaggle, focusing on data visualization using Power BI. The dashboard includes key performance indicators such as total sales, total quantities sold, total products, and average price, along with visual analyses such as top 10 products, sales by store location, sales by category, and sales by seasonal and promotion status, as well as by customer segment (men vs. women). The goal of this project is to develop and enhance my skills in creating clear, insightful, and visually appealing dashboards.
 
 ## 📁 Project Structure
-📦 netflix-shows/
+📦 zara-sales/
 ├── data/
 │   ├── original/
 │   │   └── zara.csv
