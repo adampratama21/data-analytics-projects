@@ -1,0 +1,28 @@
+DATA CLEANING LOG
+-----------------
+
+1. Modified column headers:
+   - Renamed all column headers with more than one word into snake_case.
+   - Converted all column headers to lowercase.
+
+2. Hid columns:
+   - Hid 'url', 'description', 'scraped_at', 'product_category', 'brand', 'currency', and 'sku' columns.
+   - 'sku' column contains duplicates and is not used as a key (primary identifier is 'product_id', verified to have no duplicates).
+
+3. Changed data types:
+   - Changed the data type of 'sales_volume' column to Whole Number
+   - Changed the data type of 'price' column to Decimal Number – English (United States) (using locale).
+
+4. Standardized text values:
+   - Applied 'Trim' to remove extra spaces.
+   - Converted all text values to UPPERCASE.
+
+5. Replaced blank values in 'name' column:
+   - Replaced all blank or empty values in 'name' column with 'UNKNOWN'.
+
+6. Added new column:
+   - Created 'total_sales' by multiplying 'price' * 'sales_volume' in Power Query (Power BI).
+   - Purpose: to calculate total sales value for KPI dashboard visualization.
+
+7. Rearranged column order:
+   - Improved table readability by adjusting column positions in Power Query (Power BI) to match the original data order after hiding columns.
